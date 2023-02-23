@@ -18,7 +18,7 @@ Added some manually selected non-cover pages as well to give it a bit more varie
 
 ## Feature Engineering
 
-MLE_1_Feature_Engineering.py is the first main file. Given a folder, recursively search through it for comic files (cbr/cbz) and build out a feature set for each file.
+MLE_1_Feature_Engineering.py is the first main file. Given a folder, recursively search through it for comic files (cbr/cbz) and build out a feature set for each page/image in each file.
 
 The features we are using are as follows:
 
@@ -36,9 +36,13 @@ The features we are using are as follows:
 - Whether OpenCV thinks it saw the Marvel Logo,
 - OpenCV confident score it seeing the Marvel Logo
 
-## Training
+Output csv looks like this:
 
-MLE_2_Training_Attempt_1.py is the second main file. Given a training data set, split it 80:20 training:test, then run various different classifiers using those two sets and measure their performance.
+![TrainingSet2](/Images/TrainingSet2.png)
+
+## Classifier Testing and Comparison
+
+MLE_2_Classifier_Testing_And_Comparison.py is the second main file. Given a training data set, split it 80:20 training:test, then run various different classifiers using those two sets and measure their performance.
 
 Key metrics we are measureing are (Accuracy)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score], (Precision)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html], (Recall)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html], (F1)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html] and (Logistic Loss)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html#sklearn.metrics.log_loss].
 
@@ -59,11 +63,13 @@ The results of the tests looked like this:
 
 Overall, GradientBoostingClassifier was found to be the best option for this use case.
 
-## Testing
+## Part 3
 
-## Early Experiments/Testing
 
-## Misc Benchmarking
+
+## Early Expirements
+
+## Misc Other Benchmarking
 
 Comparison of different classifiers and how they performed against various training sets
 
