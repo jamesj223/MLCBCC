@@ -78,11 +78,10 @@ Additionally, there are individual files for some of the individual features fro
 
 ## Misc Other Benchmarking
 
-Comparison of different classifiers and how they performed against various training sets
+Comparison of different classifiers against earlier training sets
 
 ![Comparison1](/Images/ClassifierComparison1.png)
 ![Comparison2](/Images/ClassifierComparison2.png)
-![Comparison3](/Images/ClassifierComparison3.png)
 
 Examining computation/time cost of different feature types
 
