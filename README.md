@@ -16,7 +16,7 @@ Added some manually selected non-cover pages as well to give it a bit more varie
 ![Example2](/Examples/10.jpg)
 ![Example3](/Examples/21.jpg)
 
-## Feature Engineering
+## Step 1 - Feature Engineering
 
 MLE_1_Feature_Engineering.py is the first main file. Given a folder, recursively search through it for comic files (cbr/cbz) and build out a feature set for each page/image in each file.
 
@@ -40,7 +40,7 @@ Output csv looks like this:
 
 ![TrainingSet2](/Images/TrainingSet2.png)
 
-## Classifier Testing and Comparison
+## Step 2 - Classifier Testing and Comparison
 
 MLE_2_Classifier_Testing_And_Comparison.py is the second main file. Given a training data set, split it 80:20 training:test, then run various different classifiers using those two sets and measure their performance.
 
@@ -63,9 +63,14 @@ The results of the tests looked like this:
 
 Overall, GradientBoostingClassifier was found to be the best option for this use case.
 
-## Part 3
+## Step 3 - Usage
 
+MLE_3_Extract_Classify_Move.py is the third main file. It works as follows:
 
+- Given an input folder, recursively search through it, find and extract all comic files to separate directories, flatten them (renaming files to avoid conflicts)
+- Build feature set for each image
+- Load trained classifier, load featureset into pandas, iterate over pandas and apply classifier 
+- Move covers to output folder and clean up temp directories. 
 
 ## Early Expirements
 
