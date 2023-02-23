@@ -74,6 +74,8 @@ MLE_3_Extract_Classify_Move.py is the third main file. It works as follows:
 
 ## Early Expirements
 
+Additionally, there are individual files for some of the individual features from MLE 1 from early testing/troubleshooting, as well as some additional benchmarking stuff. Might be of some use to someone. 
+
 ## Misc Other Benchmarking
 
 Comparison of different classifiers and how they performed against various training sets
