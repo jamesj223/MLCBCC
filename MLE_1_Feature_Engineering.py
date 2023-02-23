@@ -3,45 +3,6 @@
 # MachineLearningExperiment.py - Machine Learning Comic Book Cover Finding Experiment
 # jamesj223
 
-''' 
-
-TODO
-
-Create CSVs
-
-    Development set - Done
-
-    Training set
-    Validation set
-        Or just do the random selection/split thing for training...
-
-    Full set
-        Just a recursive list of every archive and containing image
-
-Feature Set
-
-    Archive name
-    File name - Image
-    Aspect ratio / Horizontal Resolution / Vertical Resolution
-    Horizontal black / white lines 
-    Number of each colour pixels
-    "Average" colour
-    Barcode or marvel logo
-    Variant in file name
-    # covers in archive name
-    File position in archive
-    # Words on page (using OCR)
-        Look for key words? "Variant" specifically comes to mind
-
-Misc Thoughts
-    BW Threshold? How perfect does it need to be?
-
-    Line threshold - How many different coloured pixels before we say it's not a continuous line
-
-    Should we check for other coloured lines? what if BG isn't B or W
-
-'''
-
 ###############################################################################
 # Initialisation
 
@@ -80,7 +41,6 @@ clean = False
 
 # Attempt Parallel Processing :s
 parallel = True
-
 
 ###############################################################################
 # Classes

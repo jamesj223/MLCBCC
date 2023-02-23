@@ -3,35 +3,6 @@
 # MachineLearningExperiment.py - Machine Learning Comic Book Cover Finding Experiment
 # jamesj223
 
-# I think recall is the most important stat for this project?
-
-# Accuracy
-# TODO
-
-# Log Loss
-# TODO
-
-# Precision - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html
-# The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the number of false positives. 
-# The precision is intuitively the ability of the classifier not to label as positive a sample that is negative.
-# The best value is 1 and the worst value is 0.
-
-# Recall - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html
-# The recall is the ratio tp / (tp + fn) where tp is the number of true positives and fn the number of false negatives. 
-# The recall is intuitively the ability of the classifier to find all the positive samples.
-# The best value is 1 and the worst value is 0.
-
-# F1 Score - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
-# The F1 score can be interpreted as a weighted average of the precision and recall.
-# The relative contribution of precision and recall to the F1 score are equal. 
-# The formula for the F1 score is: F1 = 2 * (precision * recall) / (precision + recall)
-# The best value is 1 and the worst value is 0.
-
-# Raw Stats?
-# Correct
-# False Positives
-# False Negatives
-
 ###############################################################################
 # Initialisation
 
