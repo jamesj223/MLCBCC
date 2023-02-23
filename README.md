@@ -44,7 +44,7 @@ Output csv looks like this:
 
 MLE_2_Classifier_Testing_And_Comparison.py is the second main file. Given a training data set, split it 80:20 training:test, then run various different classifiers using those two sets and measure their performance.
 
-Key metrics we are measureing are (Accuracy)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score], (Precision)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html], (Recall)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html], (F1)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html] and (Logistic Loss)[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html#sklearn.metrics.log_loss].
+Key metrics we are measureing are [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html), [F1](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) and [Logistic Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html#sklearn.metrics.log_loss).
 
 The classifiers tested are:
 
